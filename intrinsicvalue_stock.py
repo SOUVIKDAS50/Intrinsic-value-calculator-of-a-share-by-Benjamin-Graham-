@@ -1,0 +1,8 @@
+e=eval(input("enter  Current EPS of the company: "))
+g=eval(input("enter 5 years sales growth of the company: "))
+y=eval(input("enter India 10 years bond yeild"))
+k=(2*g)
+l=(8.5+k)
+m=(e*l*4.4)
+intrinsic=(m/y)
+print("Intrinsic value of that Fundamental strong share: ",intrinsic)
